@@ -32,23 +32,26 @@ namespace OnionWinformControllersUsingSample
             this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.ccbTest = new OnionCheckedComboBoxControl.CheckedComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.icnbtnDropDownMenuTest = new FontAwesome.Sharp.IconButton();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.ccbTest = new OnionCheckedComboBoxControl.CheckedComboBox();
             this.ddmTest = new OnionDropDownMenuControl.DropDownMenu(this.components);
             this.選項一ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.選項二ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.選項二ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.dcbtnTest = new OnionDoubleClickButtonControl.DoubleClickButton();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.ddmTest.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -75,35 +78,9 @@ namespace OnionWinformControllersUsingSample
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1059, 571);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // ccbTest
-            // 
-            this.ccbTest.CheckOnClick = true;
-            this.ccbTest.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ccbTest.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.ccbTest.DropDownHeight = 1;
-            this.ccbTest.FormattingEnabled = true;
-            this.ccbTest.IntegralHeight = false;
-            this.ccbTest.Location = new System.Drawing.Point(5, 5);
-            this.ccbTest.Name = "ccbTest";
-            this.ccbTest.Size = new System.Drawing.Size(286, 24);
-            this.ccbTest.TabIndex = 0;
-            this.ccbTest.ValueSeparator = ", ";
-            this.ccbTest.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.ccbTest_ItemCheck);
-            this.ccbTest.DropDownClosed += new System.EventHandler(this.ccbTest_DropDownClosed);
-            // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -112,16 +89,6 @@ namespace OnionWinformControllersUsingSample
             this.panel1.Padding = new System.Windows.Forms.Padding(5);
             this.panel1.Size = new System.Drawing.Size(306, 300);
             this.panel1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.ccbTest);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(5, 5);
-            this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(5);
-            this.panel2.Size = new System.Drawing.Size(296, 38);
-            this.panel2.TabIndex = 1;
             // 
             // panel3
             // 
@@ -153,6 +120,43 @@ namespace OnionWinformControllersUsingSample
             this.icnbtnDropDownMenuTest.UseVisualStyleBackColor = false;
             this.icnbtnDropDownMenuTest.Click += new System.EventHandler(this.icnbtnDropDownMenuTest_Click);
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.ccbTest);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(5, 5);
+            this.panel2.Name = "panel2";
+            this.panel2.Padding = new System.Windows.Forms.Padding(5);
+            this.panel2.Size = new System.Drawing.Size(296, 38);
+            this.panel2.TabIndex = 1;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Size = new System.Drawing.Size(624, 308);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // ccbTest
+            // 
+            this.ccbTest.CheckOnClick = true;
+            this.ccbTest.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ccbTest.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.ccbTest.DropDownHeight = 1;
+            this.ccbTest.FormattingEnabled = true;
+            this.ccbTest.IntegralHeight = false;
+            this.ccbTest.Location = new System.Drawing.Point(5, 5);
+            this.ccbTest.Name = "ccbTest";
+            this.ccbTest.Size = new System.Drawing.Size(286, 24);
+            this.ccbTest.TabIndex = 0;
+            this.ccbTest.ValueSeparator = ", ";
+            this.ccbTest.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.ccbTest_ItemCheck);
+            this.ccbTest.DropDownClosed += new System.EventHandler(this.ccbTest_DropDownClosed);
+            // 
             // ddmTest
             // 
             this.ddmTest.Font = new System.Drawing.Font("Verdana", 9.75F);
@@ -172,26 +176,50 @@ namespace OnionWinformControllersUsingSample
             this.toolStripMenuItem2,
             this.toolStripMenuItem3});
             this.選項一ToolStripMenuItem.Name = "選項一ToolStripMenuItem";
-            this.選項一ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.選項一ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.選項一ToolStripMenuItem.Text = "選項一";
-            // 
-            // 選項二ToolStripMenuItem
-            // 
-            this.選項二ToolStripMenuItem.Name = "選項二ToolStripMenuItem";
-            this.選項二ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.選項二ToolStripMenuItem.Text = "選項二";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(99, 22);
             this.toolStripMenuItem2.Text = "1-1";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(99, 22);
             this.toolStripMenuItem3.Text = "1-2";
+            // 
+            // 選項二ToolStripMenuItem
+            // 
+            this.選項二ToolStripMenuItem.Name = "選項二ToolStripMenuItem";
+            this.選項二ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.選項二ToolStripMenuItem.Text = "選項二";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(61)))), ((int)(((byte)(151)))));
+            this.panel4.Controls.Add(this.dcbtnTest);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(5, 87);
+            this.panel4.Name = "panel4";
+            this.panel4.Padding = new System.Windows.Forms.Padding(4);
+            this.panel4.Size = new System.Drawing.Size(296, 44);
+            this.panel4.TabIndex = 3;
+            // 
+            // dcbtnTest
+            // 
+            this.dcbtnTest.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dcbtnTest.FlatAppearance.BorderSize = 0;
+            this.dcbtnTest.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(61)))), ((int)(((byte)(151)))));
+            this.dcbtnTest.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(61)))), ((int)(((byte)(151)))));
+            this.dcbtnTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dcbtnTest.Location = new System.Drawing.Point(4, 4);
+            this.dcbtnTest.Name = "dcbtnTest";
+            this.dcbtnTest.Size = new System.Drawing.Size(288, 36);
+            this.dcbtnTest.TabIndex = 0;
+            this.dcbtnTest.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -207,9 +235,10 @@ namespace OnionWinformControllersUsingSample
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ddmTest.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -229,6 +258,8 @@ namespace OnionWinformControllersUsingSample
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem 選項二ToolStripMenuItem;
+        private System.Windows.Forms.Panel panel4;
+        private OnionDoubleClickButtonControl.DoubleClickButton dcbtnTest;
     }
 }
 

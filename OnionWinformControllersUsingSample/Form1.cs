@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 using OnionCheckedComboBoxControl;  // 使用「CheckedComboBox」所需引用的命名空間
 using OnionDropDownMenuControl;  // 使用「DropDownMenu」所需引用的命名空間
+using OnionDoubleClickButtonControl;
+
 
 namespace OnionWinformControllersUsingSample
 {
@@ -20,6 +22,7 @@ namespace OnionWinformControllersUsingSample
             InitializeComponent();
             vInitialCheckedComboBoxEvent();
             vInitialDropDownMenu();
+            vInitialDoubleClickButton();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -91,7 +94,6 @@ namespace OnionWinformControllersUsingSample
 
         #endregion
 
-
         #region 所有「DropDownMenu」的使用範例
         private void vInitialDropDownMenu()
         {
@@ -136,6 +138,17 @@ namespace OnionWinformControllersUsingSample
         }
         #endregion
 
+        #region 所有「DoubleClickButton」的使用範例
+        private void vInitialDoubleClickButton()
+        {
+            dcbtnTest.DoubleClick += new EventHandler(dcbtnTest_DoubleClick);
+        }
 
+
+        void dcbtnTest_DoubleClick(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
+        #endregion
     }
 }
