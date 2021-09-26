@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers\bin\Debug\OnionWinformControllers.dll
+C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers\bin\Debug\OnionWinformControllers.pdb
+C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers\obj\Debug\OnionWinformControllers.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers\obj\Debug\OnionWinformControllers.dll
+C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers\obj\Debug\OnionWinformControllers.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionWinformControllersUsingSample", "OnionWinformControllersUsingSample\OnionWinformControllersUsingSample.csproj", "{CBBA7E4F-5469-4E5B-BAAA-202CFA066A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionWinformControllers", "OnionWinformControllers\OnionWinformControllers.csproj", "{B7159EA6-E905-400E-B580-FAFB3D29F54B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBBA7E4F-5469-4E5B-BAAA-202CFA066A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBA7E4F-5469-4E5B-BAAA-202CFA066A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBA7E4F-5469-4E5B-BAAA-202CFA066A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBA7E4F-5469-4E5B-BAAA-202CFA066A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7159EA6-E905-400E-B580-FAFB3D29F54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7159EA6-E905-400E-B580-FAFB3D29F54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7159EA6-E905-400E-B580-FAFB3D29F54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7159EA6-E905-400E-B580-FAFB3D29F54B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3295B77-0ED7-4EAD-A43F-A215FF82C62C}
+	EndGlobalSection
+EndGlobal
