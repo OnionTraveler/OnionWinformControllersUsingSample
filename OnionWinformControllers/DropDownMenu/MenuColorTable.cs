@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace OnionDropDownMenuControl
+namespace OnionWinformControllers.DropDownMenu
 {
     public class MenuColorTable : ProfessionalColorTable
     {

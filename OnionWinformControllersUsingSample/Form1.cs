@@ -8,9 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using OnionCheckedComboBoxControl;  // 使用「CheckedComboBox」所需引用的命名空間
-using OnionDropDownMenuControl;  // 使用「DropDownMenu」所需引用的命名空間
-using OnionDoubleClickButtonControl;
+
+using OnionWinformControllers.CheckedComboBox;  // 使用「CheckedComboBox」所需引用的命名空間
+using OnionWinformControllers.DropDownMenu;  // 使用「DropDownMenu」所需引用的命名空間
+using OnionWinformControllers.DoubleClickButton;
 
 
 namespace OnionWinformControllersUsingSample

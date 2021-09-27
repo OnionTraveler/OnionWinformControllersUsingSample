@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OnionCheckedComboBoxControl
+namespace OnionWinformControllers.CheckedComboBox
 {
     public class CCBoxItem
     {

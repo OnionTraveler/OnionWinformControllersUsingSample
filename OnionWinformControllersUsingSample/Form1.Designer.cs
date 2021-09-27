@@ -37,14 +37,14 @@ namespace OnionWinformControllersUsingSample
             this.icnbtnDropDownMenuTest = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.ccbTest = new OnionCheckedComboBoxControl.CheckedComboBox();
-            this.ddmTest = new OnionDropDownMenuControl.DropDownMenu(this.components);
+            this.ccbTest = new OnionWinformControllers.CheckedComboBox.CheckedComboBox();
+            this.ddmTest = new OnionWinformControllers.DropDownMenu.DropDownMenu(this.components);
             this.選項一ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.選項二ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.dcbtnTest = new OnionDoubleClickButtonControl.DoubleClickButton();
+            this.dcbtnTest = new OnionWinformControllers.DoubleClickButton.DoubleClickButton();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -248,18 +248,18 @@ namespace OnionWinformControllersUsingSample
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private OnionCheckedComboBoxControl.CheckedComboBox ccbTest;
+        private OnionWinformControllers.CheckedComboBox.CheckedComboBox ccbTest;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private FontAwesome.Sharp.IconButton icnbtnDropDownMenuTest;
-        private OnionDropDownMenuControl.DropDownMenu ddmTest;
+        private OnionWinformControllers.DropDownMenu.DropDownMenu ddmTest;
         private System.Windows.Forms.ToolStripMenuItem 選項一ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem 選項二ToolStripMenuItem;
         private System.Windows.Forms.Panel panel4;
-        private OnionDoubleClickButtonControl.DoubleClickButton dcbtnTest;
+        private OnionWinformControllers.DoubleClickButton.DoubleClickButton dcbtnTest;
     }
 }
 

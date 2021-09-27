@@ -3,3 +3,4 @@ C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers
 C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers\obj\Release\OnionWinformControllers.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers\obj\Release\OnionWinformControllers.dll
 C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers\obj\Release\OnionWinformControllers.pdb
+C:\Users\user\Desktop\OnionWinformControllersUsingSample\OnionWinformControllers\obj\Release\OnionWinformControllers.csproj.AssemblyReference.cache

@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Diagnostics;
 
 
-namespace OnionCheckedComboBoxControl
+namespace OnionWinformControllers.CheckedComboBox
 {
     public class CheckedComboBox : ComboBox
     {
